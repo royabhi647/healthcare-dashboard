@@ -1,0 +1,6 @@
+.right-sidebar {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

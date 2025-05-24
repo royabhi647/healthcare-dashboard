@@ -1,0 +1,111 @@
+.anatomy-section {
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.anatomy-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.anatomy-model {
+  position: relative;
+  flex-shrink: 0;
+  background: #F6FAFF;
+}
+
+.anatomy-image {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+.healthy-heart-badge {
+  position: absolute;
+  top: 60px;
+  right: -20px;
+  background: #6366f1;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.health-indicators {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  
+}
+
+.health-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #F6FAFF;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.health-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.health-info h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.health-info p {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+
+.progress-bar {
+  width: 200px;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.healthy-log-btn {
+  margin-top: 24px;
+  padding: 12px 24px;
+  background: #06b6d4;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+}
